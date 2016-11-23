@@ -30,5 +30,5 @@ while offset < len(encoded):
     records = decoder.decode(encoded[offset:offset + chunkSize])
     if records:
         for r in records:
-            print r
+            print(r)
     offset += chunkSize
